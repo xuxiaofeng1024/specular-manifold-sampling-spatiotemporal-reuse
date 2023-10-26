@@ -1,8 +1,21 @@
 # Efficient Caustics Rendering via Spatial and Temporal Path Reuse
 Source code for PG2023 paper "Efficient Caustics Rendering via Spatial and Temporal Path Reuse".
+We implemented our method in Mitsuba 2, building upon the implementation of the SMS method by Zeltner et al.
 
+## Results
+Here is a list of available results:
+### `results/sphere/`
 
-<img src="https://github.com/tizian/specular-manifold-sampling/raw/master/docs/images/sms-teaser.jpg" alt="SMS teaser">
+* Run Python script `render_sphere_spp1.py` that executes the first stage of our method.
+* Run Python script `render_sphere_reuse_spatial.py` that executes the second stage of our method (spatial reuse).
+* Run Python script `render_sphere_reuse_temporal.py` that executes the second stage of our method (temporal reuse).
+
+### `results/slab/`
+
+* Run Python script `render_slab_spp1.py` that executes the first stage of our method.
+* Run Python script `render_slab_reuse_spatial.py` that executes the second stage of our method (spatial reuse).
+
+---
 
 # Specular Manifold Sampling for Rendering High-Frequency Caustics and Glints
 
@@ -60,95 +73,6 @@ We also combined the previous single/multi-scattering caustics and the glint met
 * Augmented path tracer in `src/integrators/path_sms_teaser.cpp`
 * Reference path tracer (that renders the same subset of light paths for comparisons) in `src/integrators/path_filtered_teaser.cpp`
 * Used to render Figures 1 and 13 in the paper.
-
-
-## Results
-
-The directory `results` contains a set of folders for the different figures in the paper, e.g. `results/Figure_<N>_<Name>`. They contain Python scripts to generate plots or render the included Mitsuba 2 scenes.
-
-* All of these scripts need to be run *from the respective subfolder* to ensure that files are written to existing directories.
-* Most scripts assume that Mitsuba was added to the path either manually or by running `source setpath.sh`. See the ["Running Mitsuba"](https://mitsuba2.readthedocs.io/en/latest/src/getting_started/compiling.html#running-mitsuba) section in the documentation.
-* Note that the output for the various *equal time comparisons* will be more or less converged depending on your hardware, and will likely not match the exact renderings from the paper.
-
-Here is a list of available results:
-
-
-### `results/Figure_4_5_RingSolutions/`
-
-* Run `mitsuba ring.xml` to render Figure 4a.
-* Run Python script `generate_plots_simple.py` to create the two plots in Figure b,d.
-* Run `mitsuba ring_paths.xml` to render Figure 4c.
-* Run Python script `generate_fractal.py` to create Figure 5a.
-* Run Python script `generate_plots_normalmapped.py` to create Figure 5b.
-
-
-### `results/Figure_6_Sequence/`
-
-* Run Python script `render.py` that renders the scene with Mitsuba after setting the right method parameters.
-* Run Python script `render_references.py` to render references with path tracing and SMS. This will take a long time!
-
-
-### `results/Figure_8_Constraints/`
-
-* Run Python script `render.py` that renders the scene using the two approaches.
-
-
-### `results/Figure_9_Twostage/`
-
-* Run Python script `render.py` that renders the two scenes with both approaches.
-
-
-### `results/Figure_10_TwostageSolutions/`
-
-* Run Python script `generate_plots.py` to create the two subplots.
-
-
-### `results/Figure_11_GlintsZoom/`
-
-* Run Python script `generate_plots.py` to create plots of the footprint and the convergence basins inside.
-
-
-### `results/Figure_12_GlintsMIS/`
-
-* Run Python script `render.py` that renders the three images with Mitsuba after setting the right method parameters.
-
-
-### `results/Figure_14_15_MainComparison/`
-
-* Run Python scripts `render_{plane,sphere,pool}.py` to create renderings for all methods at equal time.
-* Run Python scripts `render_references_{plane,sphere,pool}.py` to render references with path tracing and SMS. This will take a long time!
-
-
-### `results/Figure_16_Displacement/`
-
-* Run Python script `render.py` to render both versions of the scene.
-
-
-### `results/Figure_17_Roughness/`
-
-* Run Python script `render.py` to render the scenes with varying roughness using both approaches.
-
-
-### `results/Figure_18_DoubleRefraction/`
-
-* Run Python script `render.py` to create renderings for all methods at equal time.
-* Run Python script `render_references.py` to render references with path tracing and SMS. This will take a long time!
-
-
-### `results/Figure_19_GlintsComparison/`
-
-* Run Python script `generate_normalmaps.py` that will create the high-resolution normal maps used in the two scenes.
-* In order to run prior work ["Position-Normal Distributions for Efficient Rendering of Specular Microstructure" by Yan et al. 2016](https://sites.cs.ucsb.edu/~lingqi/publications/paper_glints2.pdf), convert the normal maps to the `.flakes` format used by their method by running these two commands:
-   * `./<Mitsuba 2 build directory>/dist/normalmap_to_flakes textures/normalmap_gaussian_yan.exr gaussian.flakes 4`
-   * `./<Mitsuba 2 build directory>/dist/normalmap_to_flakes textures/normalmap_brushed_yan.exr brushed.flakes 2`
-* Render sequences of renderings with increasing time by running the `render_{shoes,kettle}.py` scripts. These run for a long time! Specify the method to use by providing one of the following command line arguments:
-   * `pt` for path tracer reference
-   * `sms_ub` for unbiased SMS
-   * `sms_b` for biased SMS
-   * `sms_bv` for biased + vectorized SMS
-   * `yan` for the method of Yan et al. 2016
-* Render path traced reference insets with Python script `render_references.py`.
-* Process the renderings and log files to generate the convergence plots with Python script `generate_plots.py`.
 
 ---
 
