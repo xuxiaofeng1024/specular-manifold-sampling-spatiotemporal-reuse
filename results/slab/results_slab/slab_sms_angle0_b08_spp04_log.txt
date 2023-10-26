@@ -1,0 +1,137 @@
+2023-10-26 14:14:56 INFO  main  [mitsuba.cpp:194] Mitsuba version 2.1.0 (develop[1f0e4034], Linux, 64bit, 24 threads, 8-wide SIMD)
+2023-10-26 14:14:56 INFO  main  [mitsuba.cpp:195] Copyright 2020, Realistic Graphics Lab, EPFL
+2023-10-26 14:14:56 INFO  main  [mitsuba.cpp:196] Enabled processor features: avx2 avx fma f16c sse4.2 x86_64
+arg_extra=slab_sms.xml
+scene_dir 
+2023-10-26 14:14:56 INFO  main  [xml.cpp:1182] Loading XML file "slab_sms.xml" ..
+2023-10-26 14:14:56 INFO  main  [xml.cpp:1183] Using variant "scalar_spectral"
+2023-10-26 14:14:56 INFO  main  [xml.cpp:354] "slab_sms.xml": in-memory version upgrade (v2.0.0 -> v2.1.0) ..
+2023-10-26 14:14:56 INFO  main  [PluginManager] Loading plugin "plugins/srgb.so" ..
+2023-10-26 14:14:56 INFO  main  [srgb.cpp:22] Loading spectral upsampling model "data/srgb.coeff" .. 
+2023-10-26 14:14:56 INFO  main  [PluginManager] Loading plugin "plugins/d65.so" ..
+2023-10-26 14:14:56 INFO  main  [PluginManager] Loading plugin "plugins/regular.so" ..
+2023-10-26 14:14:56 INFO  main  [PluginManager] Loading plugin "plugins/path_sms_ms.so" ..
+2023-10-26 14:14:56 INFO  tbb01 [PluginManager] Loading plugin "plugins/gaussian.so" ..
+2023-10-26 14:14:56 INFO  tbb02 [PluginManager] Loading plugin "plugins/dielectric.so" ..
+2023-10-26 14:14:56 INFO  tbb00 [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2023-10-26 14:14:56 INFO  tbb03 [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2023-10-26 14:14:56 INFO  tbb04 [PluginManager] Loading plugin "plugins/independent.so" ..
+2023-10-26 14:14:56 INFO  tbb06 [PluginManager] Loading plugin "plugins/area.so" ..
+2023-10-26 14:14:56 INFO  tbb01 [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2023-10-26 14:14:56 INFO  tbb02 [PluginManager] Loading plugin "plugins/obj.so" ..
+2023-10-26 14:14:56 INFO  main  [PluginManager] Loading plugin "plugins/perspective.so" ..
+2023-10-26 14:14:56 INFO  tbb06 [PluginManager] Loading plugin "plugins/uniform.so" ..
+2023-10-26 14:14:57 INFO  main  [ShapeKDTree] Building a SAH kd-tree (135172 primitives) ..
+2023-10-26 14:14:57 INFO  main  [ShapeKDTree] Finished. (10.1 MiB of storage, took 148ms)
+2023-10-26 14:14:57 INFO  main  [SamplingIntegrator] Starting render job (1080x1080, 4 samples, 24 threads)
+
+Rendering [=                                            ] (505ms, ETA: 23.8s)   
+Rendering [==                                           ] (1.01s, ETA: 22.8s)   
+Rendering [===                                          ] (1.51s, ETA: 22.5s)   
+Rendering [====                                         ] (2.03s, ETA: 21.4s)   
+Rendering [=====                                        ] (2.54s, ETA: 21.3s)   
+Rendering [======                                       ] (3.07s, ETA: 20.7s)   
+Rendering [=======                                      ] (3.57s, ETA: 20.6s)   
+Rendering [========                                     ] (4.07s, ETA: 19.8s)   
+Rendering [=========                                    ] (4.57s, ETA: 19.6s)   
+Rendering [=========                                    ] (5.07s, ETA: 19.7s)   
+Rendering [==========                                   ] (5.58s, ETA: 20.2s)   
+Rendering [===========                                  ] (6.12s, ETA: 19.7s)   
+Rendering [============                                 ] (6.65s, ETA: 19.3s)   
+Rendering [============                                 ] (7.16s, ETA: 19.1s)   
+Rendering [=============                                ] (7.71s, ETA: 18.4s)   
+Rendering [==============                               ] (8.23s, ETA: 18.2s)   
+Rendering [===============                              ] (8.84s, ETA: 17.8s)   
+Rendering [================                             ] (9.34s, ETA: 16.9s)   
+Rendering [=================                            ] (9.86s, ETA: 16.5s)   
+Rendering [==================                           ] (10.4s, ETA: 15.6s)   
+Rendering [===================                          ] (10.9s, ETA: 15.3s)   
+Rendering [====================                         ] (11.4s, ETA: 14.8s)   
+Rendering [=====================                        ] (11.9s, ETA: 13.5s)   
+Rendering [======================                       ] (12.4s, ETA: 13.4s)   
+Rendering [======================                       ] (12.9s, ETA: 13s)     
+Rendering [========================                     ] (13.5s, ETA: 11.9s)   
+Rendering [=========================                    ] (14s, ETA: 11.1s)     
+Rendering [==========================                   ] (14.5s, ETA: 10.9s)   
+Rendering [==========================                   ] (15s, ETA: 10.7s)     
+Rendering [============================                 ] (15.5s, ETA: 9.52s)   
+Rendering [=============================                ] (16s, ETA: 8.99s)     
+Rendering [==============================               ] (16.6s, ETA: 8.68s)   
+Rendering [==============================               ] (17.2s, ETA: 8.27s)   
+Rendering [================================             ] (17.7s, ETA: 7.57s)   
+Rendering [=================================            ] (18.2s, ETA: 6.98s)   
+Rendering [==================================           ] (18.8s, ETA: 6.43s)   
+Rendering [==================================           ] (19.3s, ETA: 6.21s)   
+Rendering [===================================          ] (19.9s, ETA: 5.72s)   
+Rendering [====================================         ] (20.4s, ETA: 5.12s)   
+Rendering [=====================================        ] (20.9s, ETA: 4.48s)   
+Rendering [======================================       ] (21.4s, ETA: 3.69s)   
+Rendering [=======================================      ] (21.9s, ETA: 3.22s)   
+Rendering [========================================     ] (22.5s, ETA: 2.9s)    
+Rendering [=========================================    ] (23s, ETA: 2.06s)     
+Rendering [==========================================   ] (23.5s, ETA: 1.65s)   
+Rendering [===========================================  ] (24s, ETA: 1.29s)     
+Rendering [============================================ ] (24.5s, ETA: 388ms)   
+Rendering [=============================================] (25s, ETA: 0ms)       
+2023-10-26 14:15:22 INFO  main  [SamplingIntegrator] Rendering finished. (took 24.983s)
+
+----------------------------------------------------------
+    Specular Manifold Sampling Statistics
+----------------------------------------------------------
+Solver succeeded:           3215936        (9.25985%)
+Solver failed:             31513944        (90.7401%)
+
+avg. Booth iterations:         -nan
+max. Booth iterations:            0
+
+avg. newton iterations:     18.3672
+total solutions:            1467929
+----------------------------------------------------------
+
+2023-10-26 14:15:22 INFO  main  [HDRFilm] ✔  Developing "results_slab/slab_sms_angle0_b08_spp04.exr" ..
+2023-10-26 14:15:22 INFO  main  [Profiler] Recorded 9306 samples, used 25/256 hash table entries.
+2023-10-26 14:15:22 INFO  main  [Profiler] ⏱  Profile (hierarchical):
+2023-10-26 14:15:22 INFO  main  [Profiler]     Idle                                                  0.05%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Integrator::render()                                  98.84%
+2023-10-26 14:15:22 INFO  main  [Profiler]       Endpoint::sample_ray()                              0.02%
+2023-10-26 14:15:22 INFO  main  [Profiler]       ImageBlock::put()                                   0.10%
+2023-10-26 14:15:22 INFO  main  [Profiler]       SamplingIntegrator::sample()                        98.22%
+2023-10-26 14:15:22 INFO  main  [Profiler]         BSDF::eval(), pdf()                               0.10%
+2023-10-26 14:15:22 INFO  main  [Profiler]           Texture::eval()                                 0.06%
+2023-10-26 14:15:22 INFO  main  [Profiler]         BSDF::sample()                                    0.08%
+2023-10-26 14:15:22 INFO  main  [Profiler]           Texture::eval()                                 0.01%
+2023-10-26 14:15:22 INFO  main  [Profiler]         SMS::Caustics                                     96.64%
+2023-10-26 14:15:22 INFO  main  [Profiler]           BSDF::eval(), pdf()                             0.01%
+2023-10-26 14:15:22 INFO  main  [Profiler]             Texture::eval()                               0.01%
+2023-10-26 14:15:22 INFO  main  [Profiler]           Endpoint::eval(), pdf()                         0.01%
+2023-10-26 14:15:22 INFO  main  [Profiler]             Texture::eval()                               0.01%
+2023-10-26 14:15:22 INFO  main  [Profiler]           SMS::NewtonSolver                               83.10%
+2023-10-26 14:15:22 INFO  main  [Profiler]             Scene::ray_intersect()                        65.66%
+2023-10-26 14:15:22 INFO  main  [Profiler]               KDTree::create_surface_interaction()        6.34%
+2023-10-26 14:15:22 INFO  main  [Profiler]           Scene::ray_intersect()                          10.24%
+2023-10-26 14:15:22 INFO  main  [Profiler]             KDTree::create_surface_interaction()          0.70%
+2023-10-26 14:15:22 INFO  main  [Profiler]           Scene::ray_test()                               0.05%
+2023-10-26 14:15:22 INFO  main  [Profiler]         Scene::ray_intersect()                            0.82%
+2023-10-26 14:15:22 INFO  main  [Profiler]           KDTree::create_surface_interaction()            0.14%
+2023-10-26 14:15:22 INFO  main  [Profiler]         Scene::sample_emitter_direction()                 0.41%
+2023-10-26 14:15:22 INFO  main  [Profiler]           Endpoint::sample_direction()                    0.06%
+2023-10-26 14:15:22 INFO  main  [Profiler]             Texture::eval()                               0.01%
+2023-10-26 14:15:22 INFO  main  [Profiler]           Scene::ray_test()                               0.31%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Scene initialization                                  1.11%
+2023-10-26 14:15:22 INFO  main  [Profiler] ⏱  Profile (flat):
+2023-10-26 14:15:22 INFO  main  [Profiler]     Scene::ray_intersect()                                69.54%
+2023-10-26 14:15:22 INFO  main  [Profiler]     SMS::NewtonSolver                                     17.44%
+2023-10-26 14:15:22 INFO  main  [Profiler]     KDTree::create_surface_interaction()                  7.18%
+2023-10-26 14:15:22 INFO  main  [Profiler]     SMS::Caustics                                         3.22%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Scene initialization                                  1.11%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Integrator::render()                                  0.51%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Scene::ray_test()                                     0.37%
+2023-10-26 14:15:22 INFO  main  [Profiler]     SamplingIntegrator::sample()                          0.18%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Texture::eval()                                       0.11%
+2023-10-26 14:15:22 INFO  main  [Profiler]     ImageBlock::put()                                     0.10%
+2023-10-26 14:15:22 INFO  main  [Profiler]     BSDF::sample()                                        0.06%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Endpoint::sample_direction()                          0.05%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Idle                                                  0.05%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Scene::sample_emitter_direction()                     0.03%
+2023-10-26 14:15:22 INFO  main  [Profiler]     BSDF::eval(), pdf()                                   0.03%
+2023-10-26 14:15:22 INFO  main  [Profiler]     Endpoint::sample_ray()                                0.02%

@@ -1,0 +1,206 @@
+2023-10-26 14:07:51 INFO  main  [mitsuba.cpp:194] Mitsuba version 2.1.0 (develop[1f0e4034], Linux, 64bit, 24 threads, 8-wide SIMD)
+2023-10-26 14:07:51 INFO  main  [mitsuba.cpp:195] Copyright 2020, Realistic Graphics Lab, EPFL
+2023-10-26 14:07:51 INFO  main  [mitsuba.cpp:196] Enabled processor features: avx2 avx fma f16c sse4.2 x86_64
+arg_extra=sphere_sms.xml
+scene_dir 
+2023-10-26 14:07:51 INFO  main  [xml.cpp:1182] Loading XML file "sphere_sms.xml" ..
+2023-10-26 14:07:51 INFO  main  [xml.cpp:1183] Using variant "scalar_spectral"
+2023-10-26 14:07:51 INFO  main  [xml.cpp:354] "sphere_sms.xml": in-memory version upgrade (v2.0.0 -> v2.1.0) ..
+2023-10-26 14:07:51 INFO  main  [PluginManager] Loading plugin "plugins/uniform.so" ..
+2023-10-26 14:07:51 INFO  main  [PluginManager] Loading plugin "plugins/d65.so" ..
+2023-10-26 14:07:51 INFO  main  [PluginManager] Loading plugin "plugins/regular.so" ..
+2023-10-26 14:07:51 INFO  main  [PluginManager] Loading plugin "plugins/path_sms_ss.so" ..
+2023-10-26 14:07:51 INFO  tbb00 [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2023-10-26 14:07:51 INFO  main  [PluginManager] Loading plugin "plugins/independent.so" ..
+2023-10-26 14:07:51 INFO  tbb02 [PluginManager] Loading plugin "plugins/dielectric.so" ..
+2023-10-26 14:07:51 INFO  tbb03 [PluginManager] Loading plugin "plugins/area.so" ..
+2023-10-26 14:07:51 INFO  tbb04 [PluginManager] Loading plugin "plugins/gaussian.so" ..
+2023-10-26 14:07:51 INFO  tbb01 [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2023-10-26 14:07:51 INFO  tbb02 [PluginManager] Loading plugin "plugins/normalmap.so" ..
+2023-10-26 14:07:51 INFO  tbb02 [NormalmapBSDF] Loading normalmap texture from "normalmap_waves.exr" ..
+2023-10-26 14:07:51 INFO  tbb04 [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2023-10-26 14:07:51 INFO  tbb00 [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2023-10-26 14:07:51 INFO  main  [PluginManager] Loading plugin "plugins/perspective.so" ..
+2023-10-26 14:07:51 INFO  tbb02 [PluginManager] Loading plugin "plugins/box.so" ..
+2023-10-26 14:07:51 INFO  tbb02 [PluginManager] Loading plugin "plugins/sphere.so" ..
+2023-10-26 14:07:51 INFO  tbb01 [srgb.cpp:22] Loading spectral upsampling model "data/srgb.coeff" .. 
+2023-10-26 14:07:52 INFO  main  [ShapeKDTree] Building a SAH kd-tree (3 primitives) ..
+2023-10-26 14:07:52 INFO  main  [ShapeKDTree] Finished. (20 B of storage, took 0ms)
+2023-10-26 14:07:52 INFO  main  [SamplingIntegrator] Starting render job (1080x1080, 99999999 samples, 99999999 passes, 24 threads)
+2023-10-26 14:07:52 INFO  main  [SamplingIntegrator] Timeout specified: 54.00 seconds.
+
+Rendering [                                             ] (500ms, ETA: 1.45y)   
+Rendering [                                             ] (1s, ETA: 1.46y)      
+Rendering [                                             ] (1.5s, ETA: 1.46y)    
+Rendering [                                             ] (2s, ETA: 1.46y)      
+Rendering [                                             ] (2.5s, ETA: 1.47y)    
+Rendering [                                             ] (3s, ETA: 1.46y)      
+Rendering [                                             ] (3.5s, ETA: 1.45y)    
+Rendering [                                             ] (4s, ETA: 1.43y)      
+Rendering [                                             ] (4.5s, ETA: 1.46y)    
+Rendering [                                             ] (5s, ETA: 1.51y)      
+Rendering [                                             ] (5.5s, ETA: 1.52y)    
+Rendering [                                             ] (6s, ETA: 1.52y)      
+Rendering [                                             ] (6.5s, ETA: 1.53y)    
+Rendering [                                             ] (7s, ETA: 1.53y)      
+Rendering [                                             ] (7.5s, ETA: 1.53y)    
+Rendering [                                             ] (8s, ETA: 1.53y)      
+Rendering [                                             ] (8.5s, ETA: 1.53y)    
+Rendering [                                             ] (9s, ETA: 1.53y)      
+Rendering [                                             ] (9.5s, ETA: 1.52y)    
+Rendering [                                             ] (10s, ETA: 1.52y)     
+Rendering [                                             ] (10.5s, ETA: 1.52y)   
+Rendering [                                             ] (11s, ETA: 1.52y)     
+Rendering [                                             ] (11.5s, ETA: 1.52y)   
+Rendering [                                             ] (12s, ETA: 1.52y)     
+Rendering [                                             ] (12.5s, ETA: 1.52y)   
+Rendering [                                             ] (13s, ETA: 1.53y)     
+Rendering [                                             ] (13.5s, ETA: 1.53y)   
+Rendering [                                             ] (14s, ETA: 1.53y)     
+Rendering [                                             ] (14.5s, ETA: 1.53y)   
+Rendering [                                             ] (15s, ETA: 1.53y)     
+Rendering [                                             ] (15.5s, ETA: 1.53y)   
+Rendering [                                             ] (16s, ETA: 1.53y)     
+Rendering [                                             ] (16.5s, ETA: 1.53y)   
+Rendering [                                             ] (17s, ETA: 1.53y)     
+Rendering [                                             ] (17.5s, ETA: 1.53y)   
+Rendering [                                             ] (18s, ETA: 1.53y)     
+Rendering [                                             ] (18.5s, ETA: 1.53y)   
+Rendering [                                             ] (19s, ETA: 1.53y)     
+Rendering [                                             ] (19.5s, ETA: 1.53y)   
+Rendering [                                             ] (20s, ETA: 1.53y)     
+Rendering [                                             ] (20.5s, ETA: 1.54y)   
+Rendering [                                             ] (21s, ETA: 1.54y)     
+Rendering [                                             ] (21.5s, ETA: 1.54y)   
+Rendering [                                             ] (22s, ETA: 1.54y)     
+Rendering [                                             ] (22.5s, ETA: 1.54y)   
+Rendering [                                             ] (23s, ETA: 1.54y)     
+Rendering [                                             ] (23.5s, ETA: 1.54y)   
+Rendering [                                             ] (24s, ETA: 1.54y)     
+Rendering [                                             ] (24.5s, ETA: 1.54y)   
+Rendering [                                             ] (25s, ETA: 1.54y)     
+Rendering [                                             ] (25.5s, ETA: 1.54y)   
+Rendering [                                             ] (26s, ETA: 1.54y)     
+Rendering [                                             ] (26.5s, ETA: 1.54y)   
+Rendering [                                             ] (27s, ETA: 1.54y)     
+Rendering [                                             ] (27.5s, ETA: 1.53y)   
+Rendering [                                             ] (28s, ETA: 1.53y)     
+Rendering [                                             ] (28.5s, ETA: 1.53y)   
+Rendering [                                             ] (29s, ETA: 1.53y)     
+Rendering [                                             ] (29.5s, ETA: 1.53y)   
+Rendering [                                             ] (30s, ETA: 1.53y)     
+Rendering [                                             ] (30.5s, ETA: 1.53y)   
+Rendering [                                             ] (31s, ETA: 1.53y)     
+Rendering [                                             ] (31.5s, ETA: 1.53y)   
+Rendering [                                             ] (32s, ETA: 1.53y)     
+Rendering [                                             ] (32.5s, ETA: 1.53y)   
+Rendering [                                             ] (33s, ETA: 1.53y)     
+Rendering [                                             ] (33.5s, ETA: 1.53y)   
+Rendering [                                             ] (34s, ETA: 1.53y)     
+Rendering [                                             ] (34.5s, ETA: 1.53y)   
+Rendering [                                             ] (35s, ETA: 1.53y)     
+Rendering [                                             ] (35.5s, ETA: 1.53y)   
+Rendering [                                             ] (36s, ETA: 1.53y)     
+Rendering [                                             ] (36.5s, ETA: 1.53y)   
+Rendering [                                             ] (37s, ETA: 1.53y)     
+Rendering [                                             ] (37.5s, ETA: 1.53y)   
+Rendering [                                             ] (38s, ETA: 1.53y)     
+Rendering [                                             ] (38.5s, ETA: 1.53y)   
+Rendering [                                             ] (39s, ETA: 1.53y)     
+Rendering [                                             ] (39.5s, ETA: 1.53y)   
+Rendering [                                             ] (40s, ETA: 1.53y)     
+Rendering [                                             ] (40.5s, ETA: 1.53y)   
+Rendering [                                             ] (41s, ETA: 1.53y)     
+Rendering [                                             ] (41.5s, ETA: 1.53y)   
+Rendering [                                             ] (42s, ETA: 1.53y)     
+Rendering [                                             ] (42.5s, ETA: 1.53y)   
+Rendering [                                             ] (43s, ETA: 1.53y)     
+Rendering [                                             ] (43.5s, ETA: 1.53y)   
+Rendering [                                             ] (44s, ETA: 1.53y)     
+Rendering [                                             ] (44.5s, ETA: 1.53y)   
+Rendering [                                             ] (45s, ETA: 1.53y)     
+Rendering [                                             ] (45.5s, ETA: 1.53y)   
+Rendering [                                             ] (46s, ETA: 1.53y)     
+Rendering [                                             ] (46.5s, ETA: 1.53y)   
+Rendering [                                             ] (47s, ETA: 1.53y)     
+Rendering [                                             ] (47.5s, ETA: 1.53y)   
+Rendering [                                             ] (48s, ETA: 1.53y)     
+Rendering [                                             ] (48.5s, ETA: 1.53y)   
+Rendering [                                             ] (49s, ETA: 1.53y)     
+Rendering [                                             ] (49.5s, ETA: 1.53y)   
+Rendering [                                             ] (50s, ETA: 1.53y)     
+Rendering [                                             ] (50.5s, ETA: 1.53y)   
+Rendering [                                             ] (51s, ETA: 1.53y)     
+Rendering [                                             ] (51.5s, ETA: 1.53y)   
+Rendering [                                             ] (52s, ETA: 1.53y)     
+Rendering [                                             ] (52.5s, ETA: 1.53y)   
+Rendering [                                             ] (53s, ETA: 1.53y)     
+Rendering [                                             ] (53.5s, ETA: 1.53y)   
+2023-10-26 14:08:46 INFO  main  [SamplingIntegrator] Rendering finished. Computed 111 spp and took 54.008s.
+
+----------------------------------------------------------
+    Specular Manifold Sampling Statistics
+----------------------------------------------------------
+Solver succeeded:         185819013        (93.0067%)
+Solver failed:             13972017        (6.99332%)
+
+avg. Booth iterations:         -nan
+max. Booth iterations:            0
+
+avg. First newton iterations:       -nan
+avg. Second newton iterations:    3.77365
+total solutions:           77880601
+----------------------------------------------------------
+
+2023-10-26 14:08:46 INFO  main  [HDRFilm] ✔  Developing "results_sphere_reuse/temporal_sphere_reuse_sms_spatial_unique_04_angle60.exr" ..
+2023-10-26 14:08:46 INFO  main  [Profiler] Recorded 29301 samples, used 30/256 hash table entries.
+2023-10-26 14:08:46 INFO  main  [Profiler] ⏱  Profile (hierarchical):
+2023-10-26 14:08:46 INFO  main  [Profiler]     Idle                                                    0.01%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Integrator::render()                                    99.24%
+2023-10-26 14:08:46 INFO  main  [Profiler]       Endpoint::sample_ray()                                0.68%
+2023-10-26 14:08:46 INFO  main  [Profiler]       ImageBlock::put()                                     1.29%
+2023-10-26 14:08:46 INFO  main  [Profiler]       SamplingIntegrator::sample()                          86.15%
+2023-10-26 14:08:46 INFO  main  [Profiler]         BSDF::eval(), pdf()                                 2.39%
+2023-10-26 14:08:46 INFO  main  [Profiler]           Texture::eval()                                   0.91%
+2023-10-26 14:08:46 INFO  main  [Profiler]         BSDF::sample()                                      3.28%
+2023-10-26 14:08:46 INFO  main  [Profiler]           Texture::eval()                                   0.38%
+2023-10-26 14:08:46 INFO  main  [Profiler]         SMS::Caustics                                       68.86%
+2023-10-26 14:08:46 INFO  main  [Profiler]           BSDF::eval(), pdf()                               0.60%
+2023-10-26 14:08:46 INFO  main  [Profiler]             Texture::eval()                                 0.49%
+2023-10-26 14:08:46 INFO  main  [Profiler]           Endpoint::eval(), pdf()                           0.17%
+2023-10-26 14:08:46 INFO  main  [Profiler]             Texture::eval()                                 0.13%
+2023-10-26 14:08:46 INFO  main  [Profiler]           SMS::sample_path_reuse()                          53.22%
+2023-10-26 14:08:46 INFO  main  [Profiler]             SMS::newton_solver_second()                     42.86%
+2023-10-26 14:08:46 INFO  main  [Profiler]               Scene::ray_intersect()                        11.86%
+2023-10-26 14:08:46 INFO  main  [Profiler]                 KDTree::create_surface_interaction()        5.55%
+2023-10-26 14:08:46 INFO  main  [Profiler]             Scene::ray_intersect()                          3.31%
+2023-10-26 14:08:46 INFO  main  [Profiler]               KDTree::create_surface_interaction()          1.54%
+2023-10-26 14:08:46 INFO  main  [Profiler]           Scene::ray_intersect()                            0.89%
+2023-10-26 14:08:46 INFO  main  [Profiler]             KDTree::create_surface_interaction()            0.16%
+2023-10-26 14:08:46 INFO  main  [Profiler]           Scene::ray_test()                                 1.39%
+2023-10-26 14:08:46 INFO  main  [Profiler]         Scene::ray_intersect()                              5.95%
+2023-10-26 14:08:46 INFO  main  [Profiler]           KDTree::create_surface_interaction()              1.92%
+2023-10-26 14:08:46 INFO  main  [Profiler]         Scene::sample_emitter_direction()                   3.09%
+2023-10-26 14:08:46 INFO  main  [Profiler]           Endpoint::sample_direction()                      0.63%
+2023-10-26 14:08:46 INFO  main  [Profiler]             Texture::eval()                                 0.08%
+2023-10-26 14:08:46 INFO  main  [Profiler]           Scene::ray_test()                                 1.72%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Scene initialization                                    0.75%
+2023-10-26 14:08:46 INFO  main  [Profiler] ⏱  Profile (flat):
+2023-10-26 14:08:46 INFO  main  [Profiler]     SMS::newton_solver_second()                             31.00%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Scene::ray_intersect()                                  12.84%
+2023-10-26 14:08:46 INFO  main  [Profiler]     SMS::Caustics                                           12.59%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Integrator::render()                                    11.12%
+2023-10-26 14:08:46 INFO  main  [Profiler]     KDTree::create_surface_interaction()                    9.17%
+2023-10-26 14:08:46 INFO  main  [Profiler]     SMS::sample_path_reuse()                                7.04%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Scene::ray_test()                                       3.11%
+2023-10-26 14:08:46 INFO  main  [Profiler]     BSDF::sample()                                          2.91%
+2023-10-26 14:08:46 INFO  main  [Profiler]     SamplingIntegrator::sample()                            2.59%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Texture::eval()                                         1.99%
+2023-10-26 14:08:46 INFO  main  [Profiler]     BSDF::eval(), pdf()                                     1.59%
+2023-10-26 14:08:46 INFO  main  [Profiler]     ImageBlock::put()                                       1.29%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Scene initialization                                    0.75%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Scene::sample_emitter_direction()                       0.73%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Endpoint::sample_ray()                                  0.68%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Endpoint::sample_direction()                            0.55%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Endpoint::eval(), pdf()                                 0.04%
+2023-10-26 14:08:46 INFO  main  [Profiler]     Idle                                                    0.01%

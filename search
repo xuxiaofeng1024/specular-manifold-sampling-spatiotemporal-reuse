@@ -1,0 +1,17 @@
+#!/bin/bash
+for file in $(find ./ -iname *.cpp)
+do
+	content=$(cat $file|grep -n $1)
+	if [ "$content" != "" ];then
+		echo =========$file
+		cat $file|grep -n $1	
+	fi
+done
+for file in $(find ./ -iname *.h)
+do
+	content=$(cat $file|grep -n $1)
+	if [ "$content" != "" ];then
+		echo =========$file
+		cat $file|grep -n $1	
+	fi
+done
